@@ -35,7 +35,7 @@ defmodule ExNVR.MixProject do
   defp deps do
     [
       {:unifex, "~> 1.1"},
-      {:bundlex, "~> 1.4.6"},
+      {:bundlex, "~> 1.5", override: true},
       {:bcrypt_elixir, "~> 3.0"},
       {:phoenix_pubsub, "~> 2.1"},
       {:ecto_sql, "~> 3.6"},
